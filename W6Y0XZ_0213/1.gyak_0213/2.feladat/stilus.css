@@ -1,0 +1,95 @@
+
+body 
+{
+    margin: 2vw;
+    background-color: #003B4A;
+    color: white;
+}
+
+.header-picture
+{
+    width: 45%;
+    border-radius: 1vw;
+}
+
+.header-picture:hover
+{
+    box-shadow: 0.5vw 0.5vw #c4ce00;
+}
+
+.header
+{
+    text-align: center;
+}
+
+.nav
+{
+    font-size: 1vw;
+    margin-top: 2vw;
+}
+
+a
+{
+    color: white;
+    margin: 2vw;
+    text-decoration: none;
+    padding: 1vw;
+    
+}
+
+.main
+{
+    font-size: 2vw;
+    text-align: justify;
+}
+
+.center
+{
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+h1
+{
+    font-size: 2.5vw;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #c4ce00;
+}
+
+.description
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.desc-part-1
+{
+    padding: 1vw;
+}
+
+.desc-part-1, .desc-part-2
+{
+    width: 50%;
+}
+
+li
+{
+    font-size: 1vw;
+}
+
+.tantargy-kep
+{
+    width: 100%;
+    border-radius: 1vw;
+}
+
+.nav-item:hover
+{
+    background-color: #c4ce00;
+    color: black;
+    border-radius: 0.5vw;
+}

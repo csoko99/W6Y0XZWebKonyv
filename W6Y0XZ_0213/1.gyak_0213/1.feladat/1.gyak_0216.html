@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GitHubCommands</title>
+</head>
+<body>
+    <h1>GitHub Parancsok</h1>
+    <br>
+    <h3>Kattintson a parancsra a másoláshoz</h3>
+    <div id="main">
+        <div id="commands">
+            <p class="cp" id="p1" onclick="copyToClipboard('p1')">git init</p>
+            <p class="cp" id="p2" onclick="copyToClipboard('p2')">git status</p>
+            <p class="cp" id="p3" onclick="copyToClipboard('p3')">git add "filename"</p>
+            <p class="cp" id="p4" onclick="copyToClipboard('p4')">git mv "oldfilename" "newfilename"</p>
+            <p class="cp" id="p5" onclick="copyToClipboard('p5')">git rm "filename"</p>
+            <p class="cp" id="p6" onclick="copyToClipboard('p6')">git commit</p>
+            <p class="cp" id="p7" onclick="copyToClipboard('p7')">git commit -m 'commit message'</p>
+            <p class="cp" id="p8" onclick="copyToClipboard('p8')">git log </p>
+            <p class="cp" id="p9" onclick="copyToClipboard('p9')">git clone "url" </p>
+            <p class="cp" id="p10" onclick="copyToClipboard('p10')">git pull </p>
+            <p class="cp" id="p11" onclick="copyToClipboard('p11')">git puss </p>
+        </div>
+        
+        <div id="description">
+            <p>Új git repository létrehozása</p>
+            <p>Változások listázása</p>
+            <p>File hozzáadása</p>
+            <p>File áthelyezése</p>
+            <p>File törlése</p>
+            <p>Változások mentése</p>
+            <p>Változások mentése, saját üzenet megadásával</p>
+            <p>Commitok listázása</p>
+            <p>Távoli repository lemásolása local gépre. </p>
+            <p>Távoli repository változásainak letöltése és mergelése</p>
+            <p>Lokális változások feltöltése távoli repository-ba</p>
+        </div>
+    </div>
+</body>
+
+<script>
+
+function copyToClipboard(var1){
+    let val = document.getElementById(var1).innerHTML;
+    const copyBox = document.createElement('textarea');
+    copyBox.style.position = 'fixed';
+    copyBox.style.left = '0';
+    copyBox.style.top = '0';
+    copyBox.style.opacity = '0';
+    copyBox.value = val;
+    document.body.appendChild(copyBox);
+    copyBox.focus();
+    copyBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(copyBox);
+    alert('Kimásolta a '+val+' parancsot');
+
+  }  
+
+</script>
+
+</html>

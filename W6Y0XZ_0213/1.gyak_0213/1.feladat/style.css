@@ -1,0 +1,49 @@
+#main
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    text-align: justify;
+    margin-left: 4.5vw;
+}
+
+h1
+{
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3
+{
+    text-align: center;
+}
+
+#description
+{
+    padding-left: 1vw;
+    background-color: beige;
+    
+}
+
+#commands
+{
+    font-weight: bold;
+    font-family: monospace;
+    background-color: gainsboro;
+    padding-left: 0.5vw;
+
+
+}
+
+.cp:hover
+{
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: brown;
+}
+
+
+
+
