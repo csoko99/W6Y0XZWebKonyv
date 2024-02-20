@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<W6Y0XZ_konyv>
+   <konyv id="01">
+      <cim>A JavaScript</cim>
+      <szerzo>Revoly András</szerzo>
+      <megjelenes_ev>1998</megjelenes_ev>
+      <kiado>Panem Kft</kiado>
+      <absztrakt>A JavaScript / Revoly András / 1998</absztrakt>
+   </konyv>
+   <konyv id="02">
+      <cim>Formális nyelvek</cim>
+      <szerzo>Bach Iván</szerzo>
+      <megjelenes_ev>2002</megjelenes_ev>
+      <kiado>Typotex Kiadó</kiado>
+      <absztrakt>Formális nyelvek / Bach Iván / 2002</absztrakt>
+   </konyv>
+   <konyv id="03">
+      <cim>Algoritmikus modellek és tanulóalgoritmusok a statisztikában</cim>
+      <szerzo>Bolla Marianna</szerzo>
+      <megjelenes_ev>2016</megjelenes_ev>
+      <kiado>Typotex Kiadó</kiado>
+      <absztrakt>Algoritmikus modellek és tanulóalgoritmusok a statisztikában / Bolla Marianna / 2016</absztrakt>
+   </konyv>
+</W6Y0XZ_konyv>
