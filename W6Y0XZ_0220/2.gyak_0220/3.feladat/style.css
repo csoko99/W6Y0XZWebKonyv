@@ -1,0 +1,43 @@
+table
+{
+    border: 3px solid black;
+    font-size: 1.2vw;
+    background-color: #003B4A;
+    color: #c4ce00;
+    width: 100%;
+}
+td
+{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    padding: 1vw;
+}
+
+th
+{
+    border-bottom: 3px solid black;
+    border-right: 2px solid black;
+    color: white;
+}
+
+.bottom
+{
+    border-bottom-style: none ;
+}
+
+.right
+{
+    border-right-style: none ;
+}
+
+h1
+{
+    text-align: center;
+}
+
+footer
+{
+    text-align: center;
+    font-size: 2vw;
+    background-color: #c4ce00;
+}
