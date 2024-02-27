@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="hu"> 
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>video</title>
+</head>
+<body> 
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Indítás/Leállítás</button> 
+  <button onclick="makeBig()">Nagy</button>
+  <button onclick="makeSmall()">Kicsi</button>
+  <button onclick="makeNormal()">Normál</button>
+  <button onclick="setVolume('loud')">Hangos</button>
+  <button onclick="setVolume('quiet')">Halk</button>
+  <button onclick="setVolume('mute')">Néma</button>
+  <br><br>
+  <video id="video" width="420">
+    <source src="w6y0xz_video.mp4" type="video/mp4">
+  </video>
+</div> 
+
+<script> 
+var video = document.getElementById("video"); 
+
+function playPause() { 
+  if (video.paused) 
+    video.play(); 
+  else 
+    video.pause(); 
+} 
+
+function makeBig() { 
+    video.width = 560; 
+} 
+
+function makeSmall() { 
+    video.width = 320; 
+} 
+
+function makeNormal() { 
+    video.width = 420; 
+} 
+
+function setVolume(level) {
+  switch(level) {
+    case 'loud':
+      video.volume = 1.0;
+      break;
+    case 'quiet':
+      video.volume = 0.5;
+      break;
+    case 'mute':
+      video.volume = 0.0;
+      break;
+    default:
+      break;
+  }
+  }
+</script> 
+
+<footer>
+    Készítette Laczkó Lajos
+</footer>
+
+</body> 
+</html>
+
