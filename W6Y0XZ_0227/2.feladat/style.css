@@ -15,13 +15,3 @@ input
     border-radius: 1ch ;
     width: 30%;
 }
-
-button
-{
-    border-radius: 1ch;
-    width: 30%;
-    margin: 1ch;
-    font-size: 2ch;
-    background-color: #003B4A;
-    color: white;
-}
