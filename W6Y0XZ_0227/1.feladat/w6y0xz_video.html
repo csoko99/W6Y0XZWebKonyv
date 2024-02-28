@@ -9,19 +9,37 @@
 <body> 
 
 <div style="text-align:center"> 
-  <button onclick="playPause()">Indítás/Leállítás</button> 
-  <button onclick="makeBig()">Nagy</button>
-  <button onclick="makeSmall()">Kicsi</button>
-  <button onclick="makeNormal()">Normál</button>
-  <button onclick="setVolume('loud')">Hangos</button>
-  <button onclick="setVolume('quiet')">Halk</button>
-  <button onclick="setVolume('mute')">Néma</button>
+  <div id="btn-con">
+    <div>
+    <button onclick="playPause()">Indítás/Leállítás</button> 
+    <button onclick="makeBig()">Nagy</button>
+    <button onclick="makeSmall()">Kicsi</button>
+    <button onclick="makeNormal()">Normál</button>
+  </div>  
+  <div>
+    <button onclick="setVolume('loud')">Hangos</button>
+    <button onclick="setVolume('quiet')">Halk</button>
+    <button onclick="setVolume('mute')">Néma</button>
+    <button onclick="slowDown()">Lassítás</button>
+  </div>
+  <div>
+    <button onclick="defspeed()">Alaphelyzet</button>
+    <button onclick="speedUp()">Gyorsítás</button>
+    <button onclick="currentTime()">Aktuális idő</button>
+    <button onclick="showLength()">Hossz</button>
+  </div>
+    <button onclick="isEndOrNot()">A videónak vége e vagy sem?</button>
+  
+</div>
   <br><br>
-  <video id="video" width="420">
+  <video id="video" width="420" controls>
     <source src="w6y0xz_video.mp4" type="video/mp4">
   </video>
 </div> 
 
+<div id="ide">
+
+</div>
 <script> 
 var video = document.getElementById("video"); 
 
@@ -50,14 +68,51 @@ function setVolume(level) {
       video.volume = 1.0;
       break;
     case 'quiet':
-      video.volume = 0.5;
+      video.volume = 0.3;
       break;
     case 'mute':
       video.volume = 0.0;
       break;
     default:
       break;
+    }
   }
+
+  function speedUp()
+  {
+    video.playbackRate += 0.1;
+  }
+
+  function slowDown()
+  {
+    video.playbackRate -= 0.1;
+  }
+
+  function defspeed()
+  {
+    video.playbackRate = 1;
+  }
+
+  function currentTime()
+  {
+    document.getElementById("ide").innerHTML = video.currentTime + " másdpercnél tart a videó";
+  }
+
+  function showLength()
+  {
+    document.getElementById("ide").innerHTML = video.duration + "másodperc"
+  }
+
+  function isEndOrNot()
+  {
+    if(video.currentTime == video.duration)
+    {
+      document.getElementById("ide").innerHTML = "A videónak vége.";
+    }
+    else
+    {
+      document.getElementById("ide").innerHTML = "A videó még tart.";
+    }
   }
 </script> 
 
