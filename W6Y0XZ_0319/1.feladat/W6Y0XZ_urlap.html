@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 Űrlap - W6Y0X</title>
+</head>
+<body>
+    <h1>HTML5 Űrlap - W6Y0XZ</h1>
+    <div id="main">
+        <form id="urlap" name="urlap" method="post" action="W6Y0XZ_feldolgozo.php" target="_self">
+            
+                Név: <input id="name" type="text" pattern="[A-Za-z]{5,30}" required autocomplete="off" name="name" autofocus placeholder="Írd be a neved" checked> <br><br>
+                PIN kód: <input id="pin-code" name="pin-code" type="password" pattern="[0-9]{4}" required> <br><br>
+                Kedvenc gyümölcs: <input id="favfruit" name="favfruit" type="text"  list="kedvenc-gyümölcs"> <br><br>
+                                        <datalist id="kedvenc-gyümölcs">
+                                            <option value="Dinnye"></option>
+                                            <option value="Alma"></option>
+                                            <option value="Banán"></option>
+                                        </datalist>
+                Életkor: <input id="age" name="age" type="number" min="0" step="1"></input> <br><br>
+                Lábméret: <input id="foot-size" name="foot-size" type="number" min="25" max="50" step="0.5"> <br><br>
+                Önbizalom: &nbsp; <input id="confidence" name="confidence" type="range" min="0" max="100"> <br><br>
+        </form>
+        <input type="submit" class="buttons" value="Elküld" form="urlap" formaction="W6Y0XZ_feldolgozo.php" formmethod="post" formtarget="W6Y0XZ_feldolgozo.php">
+        <input type="submit" class="buttons" value="Elküld ellenőrzés nélkül" form="urlap" formnovalidate formtarget="ujablak">
+    </div>
+    <hr>
+    <footer>
+        <p>Forrás: <a href="https://html5doctor.com" target="_blank">https://html5doctor.com</a></p>
+        <p>Formátumok: <a href="https://www.html5pattern.com/#google_vignette" target="_blank">https://www.html5pattern.com/#google_vignette</a></p>
+        <p>JavaScript RegExp:<a href="https://www.w3schools.com/jsref/jsref_obj_regexp.asp" target="_blank">https://www.w3schools.com/jsref/jsref_obj_regexp.asp</a></p>
+    </footer>
+</body>
+</html>

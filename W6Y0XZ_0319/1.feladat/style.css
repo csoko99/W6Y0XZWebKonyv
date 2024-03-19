@@ -1,0 +1,27 @@
+
+#main
+{
+    width: 40%;
+    background-color: aquamarine;
+    border: 2px solid gray;
+    border-radius: 1vw;
+    box-shadow: 5px 2px 2px gray;
+    padding: 1vw;
+}
+
+input
+{
+    border-radius: 0.3ch;
+    border: 0px solid white;
+}
+
+.buttons
+{
+    background-color: white;
+    width: 45%;
+}
+
+body
+{
+    font-size: 26px;
+}
