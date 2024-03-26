@@ -1,0 +1,7 @@
+function konvertalas()
+{
+  let json_text = document.getElementById("jsonText").value;
+  let json_object = JSON.parse(json_text);
+
+  document.getElementById("kimenet").innerHTML = JSON.stringify(json_object);
+}
