@@ -1,58 +1,58 @@
 <html lang="hu">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON táblázatba</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JSON táblázatba</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 300px;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: left;
+            }
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+    </head>
+    <body>
 
-    <h1>JavaScript array object_W6Y0XZ</h1>
-    <table id="konyv_tablazat">
-        <thead>
-            <tr>
-                <th>Cím</th>
-                <th>Ár</th>
-            </tr>
-        </thead>
-        <tbody id="konyvek">
-        </tbody>
-    </table>
+        <h1>JavaScript array object_W6Y0XZ</h1>
+        <table id="konyv_tablazat">
+            <thead>
+                <tr>
+                    <th>Cím</th>
+                    <th>Ár</th>
+                </tr>
+            </thead>
+            <tbody id="konyvek">
+            </tbody>
+        </table>
 
-    <footer>Laczkó Lajos - W6Y0XZ</footer>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const W6Y0XZ = [
-                { "title": "JAVA XML and JSON", "price": 0 },
-                { "title": "JavaScript to JSON", "price": 20 },
-                { "title": "Scala for the Inpatient", "price": 1000 },
-                { "title": "Scala in Depth", "price": 1300 }
-            ];
+        <footer>Laczkó Lajos - W6Y0XZ</footer>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const W6Y0XZ = [
+                    { "title": "JAVA XML and JSON", "price": 0 },
+                    { "title": "JavaScript to JSON", "price": 20 },
+                    { "title": "Scala for the Inpatient", "price": 1000 },
+                    { "title": "Scala in Depth", "price": 1300 }
+                ];
 
-            const tableBody = document.getElementById('konyvek');
+                const tableBody = document.getElementById('konyvek');
 
-            W6Y0XZ.forEach(konyv => {
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${konyv.title}</td>
-                    <td>${konyv.price}</td>
-                `;
-                tableBody.appendChild(row);
+                W6Y0XZ.forEach(konyv => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                        <td>${konyv.title}</td>
+                        <td>${konyv.price}</td>
+                    `;
+                    tableBody.appendChild(row);
+                });
             });
-        });
-    </script>
-</body>
+        </script>
+    </body>
 </html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>JSON Text konvertálása dátummá!</h1>
+        <div id="main"></div>
+
+        <footer>Laczkó Lajos - W6Y0XZ</footer>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const jsonText = 
+                {
+                    "név": "Laczkó Lajos",
+                    "irányítószám": 4281,
+                    "város": "Létavértes",
+                    "egyetem": "Tokaj-Hegyalja Egyetem",
+                    "birth": "2001.11.04"
+                }
+                let szuletesiDatum = new Date(jsonText.birth);
+
+                let formazottDatum = szuletesiDatum.getFullYear() + '-' + 
+                                    ('0' + (szuletesiDatum.getMonth() + 1)).slice(-2) + '-' + 
+                                    ('0' + szuletesiDatum.getDate()).slice(-2);
+
+                jsonText.birth = formazottDatum;
+
+                document.getElementById("main").innerHTML = JSON.stringify(jsonText);
+            })
+        </script>
+    </body>
+</html>

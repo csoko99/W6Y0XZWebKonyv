@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>JS objektumok konvertálja JSON karakterlánccá!</h1>
+
+        <div id="main"></div>
+
+        <footer>Laczkó Lajos - W6Y0XZ</footer>
+
+        <script>
+            let jsObjektun = 
+            {
+                név: "Laczkó Lajos",
+                irányítószám: "4281",
+                város: "Létavértes",
+                egyetem: "Tokaj-Hegyalja Egyetem"
+            };
+
+            let jsonKaranc = JSON.stringify(jsObjektun);
+            document.getElementById("main").innerHTML = jsonKaranc;
+        </script>
+        
+    </body>
+</html>
