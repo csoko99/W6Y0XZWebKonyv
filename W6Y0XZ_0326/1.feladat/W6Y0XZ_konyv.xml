@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konyvek>
+    <konyv id="01">
+        <cim>Java 2 I-II. - Útikalauz programozóknak 5.0</cim>
+        <szerzo>Nyékiné Gaizler Judit</szerzo>
+        <kiadas_ev>2009</kiadas_ev>
+        <kiado>Elte Természettudományi Kar</kiado>
+        <programozasi_nyelv>Java</programozasi_nyelv>
+        <nyelv>Magyar</nyelv>
+        <ar>9357 Ft<ar>
+    </konyv>
+     <konyv id="02">
+        <cim>C# programozás lépésről lépésre</cim>
+        <szerzo>Reiter István</szerzo>
+        <kiadas_ev>	2018</kiadas_ev>
+        <kiado>Jedlik Oktatási Stúdió Kft.</kiado>
+        <programozasi_nyelv>C#</programozasi_nyelv>
+        <nyelv>Magyar</nyelv>
+        <ar>2356 Ft<ar>
+    </konyv>
+</konyvek>
