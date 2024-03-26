@@ -27,7 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
             ]
         }
     };
-
+   /* const jsonOutput = document.getElementById('jsonOutput');
+    jsonOutput.textContent = JSON.stringify(myJSON, null, 2);*/
+    
     const mainElement = document.getElementById('main');
 
     myJSON.konyvek.konyv.forEach(book => {
