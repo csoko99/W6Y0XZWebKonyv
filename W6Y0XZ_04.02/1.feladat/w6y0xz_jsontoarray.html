@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hozzáférés JSON-objektumba beágyazott tömb értékéhez!</title>
+</head>
+<body>
+    <h1>Hozzáférés JSON-objektumba beágyazott tömb értékéhez!</h1>
+    <p id="cel"></p>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const LLObj = {"name":"Kiss István", "age":20, "cars": ["Ford", "BMW", "Fiat"]};
+
+        let masodik_elem = "";
+
+        for (let i = 0; i < Object.keys(LLObj).length; i++) {
+            let kulcs = Object.keys(LLObj)[i];
+            if (Array.isArray(LLObj[kulcs])) {
+                const autok = LLObj[kulcs];
+                for (let j = 0; j < autok.length; j++) 
+                {
+                    if (j === 1) 
+                    {
+                        masodik_elem = autok[j];
+                        break;
+                    }
+                }
+                if (masodik_elem) 
+                {
+                    break;
+                }
+            }
+        }
+        document.getElementById("cel").innerHTML=masodik_elem;
+    })
+    </script>
+</body>
+</html>

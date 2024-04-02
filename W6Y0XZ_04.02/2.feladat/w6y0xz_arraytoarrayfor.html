@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tömbökön belüli tömbök ciklusa</title>
+    </head>
+    <body>
+        <h1>Tömbökön belüli tömbök ciklusa</h1>
+        
+        <div id="tombtartalom"></div>
+
+            <script>
+            const LLObj = {
+            "name": "LL",
+            "age": 22,
+            "cars": [
+                {"name": "Toyota", "models": ["CHR", "Corolla", "Proace"]},
+                {"name": "Ford", "models": ["Kuga", "Mondeo", "Mustang"]},
+                {"name": "BMW", "models": ["320", "X3", "X5"]},
+                {"name": "Fiat", "models": ["500", "Panda", "Tipo"]}
+            ]
+            };
+
+            const tartalom = document.getElementById('tombtartalom');
+
+            for (let i = 0; i < LLObj.cars.length; i++) {
+            const auto = LLObj.cars[i];
+            const autonev = document.createElement('h3');
+            autonev.textContent = auto.name;
+            tartalom.appendChild(autonev);
+
+            const modellek = document.createElement('ul');
+
+            for (let j = 0; j < auto.models.length; j++) {
+                let model = auto.models[j];
+                let modelelem = document.createElement('li');
+                modelelem.textContent = model;
+                modellek.appendChild(modelelem);
+            }
+
+            tartalom.appendChild(modellek);
+            }
+            </script>
+    </body>
+</html>
