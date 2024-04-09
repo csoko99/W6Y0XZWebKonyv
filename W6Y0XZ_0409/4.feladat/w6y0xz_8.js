@@ -15,19 +15,16 @@ $(document).ready(function() {
         });
     */  
         let sor = "";
-        for (let i = 0; i<orarend.length; i++)
-        {
-            sor += "<b>Tárgy:</b>" + orarend[i].targy + "<br><br>";
-            sor += "<b>Időpont</b> <br> <ul>";
-            for (let j = 0; j < orarend[i].idopont.length;)
-            {
-                var ido = orarend[i].idopont;
-                sor += "<li> Nap: " + ido[j].nap + "</li>";
-            }
-            sor += "</ul> <br> <br>";
-            sor += "<b>Helyszín</b>" + orarend[i].helyszin + "<br> <br>";
-            sor += "<b>Oktató</b>" + orarend[i].oktato + "<br> <br>";
-            sor += "<b>Típus</b>" + orarend[i].tipus + "<br> <br>";
+        for (let i = 0; i < orarend.length; i++) {
+            sor += "<b>Tárgy:</b> " + orarend[i].targy + "<br><br>";
+            sor += "<b>Időpont:</b><br><ul>";
+            sor += "<li>Nap: " + orarend[i].idopont.nap + "</li>";
+            sor += "<li>Kezdet: " + orarend[i].idopont.tol + "</li>";
+            sor += "<li>Vége: " + orarend[i].idopont.ig + "</li>";
+            sor += "</ul>";
+            sor += "<b>Helyszín:</b> " + orarend[i].helyszin + "<br><br>";
+            sor += "<b>Oktató:</b> " + orarend[i].oktato + "<br><br>";
+            sor += "<b>Tipus:</b> " + orarend[i].tipus + "<br><br><hr>";
         }
         $("#terulet").html(sor);
         });
