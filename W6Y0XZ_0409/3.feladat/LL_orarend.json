@@ -1,0 +1,162 @@
+{
+	"LL_orarend": {
+		"ora": [
+			{
+				"targy": "Valószínűségszámítás és statisztika",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "hétfő",
+					"tol": "10:00",
+					"ig": "13:45"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Alföldi Attila",
+				"tipus": "Elmélet",
+				"_id": "01"
+			},
+			{
+				"targy": "A matematika tanítása (1-4. osztály)",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "hétfő",
+					"tol": "14:00",
+					"ig": "15:25"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Wiersumné Dr. Gyöngyösi Erika",
+				"tipus": "Elmélet",
+				"_id": "02"
+			},
+			{
+				"targy": "Webkönyvtárak",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "kedd",
+					"tol": "12:15",
+					"ig": "13:45"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Dr. Bednarik László",
+				"tipus": "Gyakorlat",
+				"_id": "03"
+			},
+			{
+				"targy": "Webkönyvtárak",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "kedd",
+					"tol": "16:00",
+					"ig": "17:30"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Dr. Bednarik László",
+				"tipus": "Gyakorlat",
+				"_id": "04"
+			},
+			{
+				"targy": "Idegen nyelv II",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "kedd",
+					"tol": "16:30",
+					"ig": "18:20"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint nagy terem",
+				"oktato": "Dr. Egey Emese",
+				"tipus": "Gyakorlat",
+				"_id": "05"
+			},
+			{
+				"targy": "Idegen nyelv II",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "szerda",
+					"tol": "08:00",
+					"ig": "09:35"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint nagy terem",
+				"oktato": "Dr. Egey Emese",
+				"tipus": "Gyakorlat",
+				"_id": "06"
+			},
+			{
+				"targy": "A matematika tanítása (1-4. osztály)",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "hétfő",
+					"tol": "08:00",
+					"ig": "09:35"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Wiersumné Dr. Gyöngyösi Erika",
+				"tipus": "Elmélet",
+				"_id": "07"
+			},
+			{
+				"targy": "Komputergrafika és képfeldolgozás",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "csütörtök",
+					"tol": "12:15",
+					"ig": "12:45"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Dr. Bednarik László",
+				"tipus": "Elmélet",
+				"_id": "08"
+			},
+			{
+				"targy": "Komputergrafika és képfeldolgozás",
+				"idopont": {
+					"paros_het": "nem páros",
+					"nap": "csütörtök",
+					"tol": "16:00",
+					"ig": "17:30"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Dr. Bednarik László",
+				"tipus": "Elmélet",
+				"_id": "09"
+			},
+			{
+				"targy": "Kalkulus",
+				"idopont": {
+					"paros_het": "páros",
+					"nap": "péntek",
+					"tol": "13:30",
+					"ig": "17:30"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Wiersumné Dr. Gyöngyösi Erika",
+				"tipus": "Elmélet",
+				"_id": "10"
+			},
+			{
+				"targy": "Operációs rendszerek",
+				"idopont": {
+					"paros_het": "páros",
+					"nap": "szombat",
+					"tol": "09:00",
+					"ig": "12:55"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Janics Tamás",
+				"tipus": "Elmélet",
+				"_id": "11"
+			},
+			{
+				"targy": "Alkalmazások fejlesztése projekt labor II.",
+				"idopont": {
+					"paros_het": "páros",
+					"nap": "szombat",
+					"tol": "09:00",
+					"ig": "12:55"
+				},
+				"helyszin": "Teológia Szemere utcai bejárat földszint kis terem",
+				"oktato": "Perlaki Attila",
+				"tipus": "Gyakorlat",
+				"_id": "12"
+			}
+		]
+	}
+}
