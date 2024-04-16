@@ -1,0 +1,45 @@
+<html lang="hu">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery feladat</title>
+    <script src="/jquery/jquery-3.7.1.js"></script>
+    <script src="W6Y0XZ_12.js"></script>
+    </head>
+    <body>
+
+        <h2>JQuery feladat</h2>
+
+        <p>Adjon meg két számot</p>
+        <form id="calculatorForm">
+        <label for="a"><b>A: </b></label>
+        <input type="number" id="a" name="num1" required><br><br>
+
+        <label for="b"><b>B: </b></label>
+        <input type="number" id="b" name="num2" required><br><br>
+
+        <input type="radio" id="szorzas" name="operation" value="szorzas" required>
+        <label for="multiply">A*B</label><br>
+        
+        <input type="radio" id="osztas" name="operation" value="osztas">
+        <label for="divide">A/B</label><br>
+        
+        <input type="radio" id="osszeadas" name="operation" value="osszeadas">
+        <label for="add">A+B</label><br>
+        
+        <input type="radio" id="kivonas" name="operation" value="kivonas">
+        <label for="subtract">A-B</label><br><br>
+        
+        <button type="button" id="szamol">Számol</button>
+
+        <b>Eredmény: </b> <p id="eredmeny"></p>
+        </form>
+
+        <style>
+            input
+            {
+                background-color: rgb(142, 194, 228);
+            }
+        </style>
+    </body>
+</html>
