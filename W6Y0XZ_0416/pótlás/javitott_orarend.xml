@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LL_orarend>
+    <ora id="01" tipus="Elmélet">
+        <targy>Valószínűségszámítás és statisztika</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>10:00</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Alföldi Attila </oktato>
+    </ora>
+     <ora id="02" tipus="Elmélet">
+        <targy>A matematika tanítása (1-4. osztály)</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>14:00</tol>
+            <ig>15:25</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+    </ora>
+     <ora id="03" tipus="Gyakorlat">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>12:15</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+    </ora>
+     <ora id="04" tipus="Gyakorlat">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+    </ora>
+     <ora id="05" tipus="Gyakorlat">
+        <targy>Idegen nyelv II</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>16:30</tol>
+            <ig>18:20</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Egey Emese</oktato>
+    </ora>
+     <ora id="06" tipus="Elmélet">
+             <targy>Idegen nyelv II</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>szerda</nap>
+            <tol>08:00</tol>
+            <ig>09:35</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Egey Emese</oktato>
+    </ora>
+     <ora id="07" tipus="Elmélet">
+        <targy>A matematika tanítása (1-4. osztály)</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>08:00</tol>
+            <ig>09:35</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+    </ora>
+     <ora id="08" tipus="Elmélet">
+        <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>csütörtök</nap>
+            <tol>12:15</tol>
+            <ig>12:45</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+    </ora>
+     <ora id="09" tipus="Elmélet">
+         <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>csütörtök</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+    </ora>
+     <ora id="10" tipus="Elmélet">
+        <targy>Kalkulus</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>péntek</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+    </ora>
+     <ora id="11" tipus="Elmélet">
+        <targy>Operációs rendszerek</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>szombat</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Janics Tamás</oktato>
+    </ora>
+    <ora id="12" tipus="Gyakorlat">
+        <targy>Alkalmazások fejlesztése projekt labor II.</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>szombat</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <szak>Programtervező Informatikus</szak>
+        <helyszin>Teológia</helyszin>
+        <oktato>Perlaki Attila</oktato>
+    </ora>
+</LL_orarend>

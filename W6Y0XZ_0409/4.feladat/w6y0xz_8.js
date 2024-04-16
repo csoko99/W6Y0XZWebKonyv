@@ -14,19 +14,32 @@ $(document).ready(function() {
           $("#terulet").append(sor);
         });
     */  
-        let sor = "";
+        /*let sor = "";
         for (let i = 0; i < orarend.length; i++) {
-            sor += "<b>Tárgy:</b> " + orarend[i].targy + "<br><br>";
-            sor += "<b>Időpont:</b><br><ul>";
+            sor += "<b>Tárgy:</b> " + orarend[i].targy + "<br>";
+            sor += "<b>Időpont:</b><ul>";
             sor += "<li>Nap: " + orarend[i].idopont.nap + "</li>";
             sor += "<li>Kezdet: " + orarend[i].idopont.tol + "</li>";
             sor += "<li>Vége: " + orarend[i].idopont.ig + "</li>";
             sor += "</ul>";
-            sor += "<b>Helyszín:</b> " + orarend[i].helyszin + "<br><br>";
-            sor += "<b>Oktató:</b> " + orarend[i].oktato + "<br><br>";
+            sor += "<b>Helyszín:</b> " + orarend[i].helyszin + "<br>";
+            sor += "<b>Oktató:</b> " + orarend[i].oktato + "<br>";
             sor += "<b>Tipus:</b> " + orarend[i].tipus + "<br><br><hr>";
         }
-        $("#terulet").html(sor);
-        });
+        
+        $("#terulet").html(sor);*/
+        for(let i = 0; i < orarend.length; i++)
+        {
+          $("#terulet").append("<b>Tárgy:</b> " + orarend[i].targy + "<br>");
+          $("#terulet").append("<b>Időpont:</b><ul>");
+          $("#terulet").append("<li>Nap: " + orarend[i].idopont.nap + "</li>");
+          $("#terulet").append("<li>Kezdet: " + orarend[i].idopont.tol + "</li>");
+          $("#terulet").append("<li>Vége: " + orarend[i].idopont.ig + "</li>");
+          $("#terulet").append("</ul>");
+          $("#terulet").append("<b>Helyszín:</b> " + orarend[i].helyszin + "<br>");
+          $("#terulet").append("<b>Oktató:</b> " + orarend[i].oktato + "<br>");
+          $("#terulet").append("<b>Tipus:</b> " + orarend[i].tipus + "<br><br><hr>");
+        }
+      });
     });
   });

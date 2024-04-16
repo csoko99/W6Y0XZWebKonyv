@@ -1,0 +1,31 @@
+{
+    "LL_orarend": {
+          "cim": {
+            "iranyitoszam": "3950",
+            "varos": "Sárospatak",
+            "utca":"Eötvös út 7"
+          },
+          "telefonszam": [
+            {
+              "tipus": "vezetekes",
+              "szam": "0646 555-123"
+            },
+            {
+              "tipus": "mobil",
+              "szam": "0670 555-4567"
+            }
+          ],
+          "targy": "Valószínűségszámítás és statisztika",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "hétfő",
+            "tol": "10:00",
+            "ig": "13:45"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia A/1",
+          "oktato": "Alföldi Attila"
+        }
+  }
+
+  

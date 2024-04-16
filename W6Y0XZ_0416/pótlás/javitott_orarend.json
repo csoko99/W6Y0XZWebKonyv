@@ -1,0 +1,150 @@
+{
+    "LL_orarend": {
+      "ora": [
+        {
+          "targy": "Valószínűségszámítás és statisztika",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "hétfő",
+            "tol": "10:00",
+            "ig": "13:45"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Alföldi Attila"
+        },
+        {
+          "targy": "A matematika tanítása (1-4. osztály)",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "hétfő",
+            "tol": "14:00",
+            "ig": "15:25"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Wiersumné Dr. Gyöngyösi Erika"
+        },
+        {
+          "targy": "Webkönyvtárak",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "kedd",
+            "tol": "12:15",
+            "ig": "13:45"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Bednarik László"
+        },
+        {
+          "targy": "Webkönyvtárak",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "kedd",
+            "tol": "16:00",
+            "ig": "17:30"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Bednarik László"
+        },
+        {
+          "targy": "Idegen nyelv II",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "kedd",
+            "tol": "16:30",
+            "ig": "18:20"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Egey Emese"
+        },
+        {
+          "targy": "Idegen nyelv II",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "szerda",
+            "tol": "08:00",
+            "ig": "09:35"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Egey Emese"
+        },
+        {
+          "targy": "A matematika tanítása (1-4. osztály)",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "hétfő",
+            "tol": "08:00",
+            "ig": "09:35"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Wiersumné Dr. Gyöngyösi Erika"
+        },
+        {
+          "targy": "Komputergrafika és képfeldolgozás",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "csütörtök",
+            "tol": "12:15",
+            "ig": "12:45"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Bednarik László"
+        },
+        {
+          "targy": "Komputergrafika és képfeldolgozás",
+          "idopont": {
+            "paros_het": "nem páros",
+            "nap": "csütörtök",
+            "tol": "16:00",
+            "ig": "17:30"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Dr. Bednarik László"
+        },
+        {
+          "targy": "Kalkulus",
+          "idopont": {
+            "paros_het": "páros",
+            "nap": "péntek",
+            "tol": "13:30",
+            "ig": "17:30"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Wiersumné Dr. Gyöngyösi Erika"
+        },
+        {
+          "targy": "Operációs rendszerek",
+          "idopont": {
+            "paros_het": "páros",
+            "nap": "szombat",
+            "tol": "09:00",
+            "ig": "12:55"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Janics Tamás"
+        },
+        {
+          "targy": "Alkalmazások fejlesztése projekt labor II.",
+          "idopont": {
+            "paros_het": "páros",
+            "nap": "szombat",
+            "tol": "09:00",
+            "ig": "12:55"
+          },
+          "szak": "Programtervező Informatikus",
+          "helyszin": "Teológia",
+          "oktato": "Perlaki Attila"
+        }
+      ]
+    }
+  }
