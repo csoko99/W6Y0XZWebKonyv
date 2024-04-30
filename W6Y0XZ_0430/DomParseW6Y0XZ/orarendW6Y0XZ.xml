@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LL_orarend>
+    <ora id="01">
+        <targy>Valószínűségszámítás és statisztika</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>10:00</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Alföldi Attila </oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="02">
+        <targy>A matematika tanítása (1-4. osztály)</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>14:00</tol>
+            <ig>15:25</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="03">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>12:15</tol>
+            <ig>13:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+     <ora id="04">
+        <targy>Webkönyvtárak</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+     <ora id="05">
+        <targy>Idegen nyelv II</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>kedd</nap>
+            <tol>16:30</tol>
+            <ig>18:20</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint nagy terem</helyszin>
+        <oktato>Dr. Egey Emese</oktato>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+     <ora id="06">
+             <targy>Idegen nyelv II</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>szerda</nap>
+            <tol>08:00</tol>
+            <ig>09:35</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint nagy terem</helyszin>
+        <oktato>Dr. Egey Emese</oktato>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+     <ora id="07">
+        <targy>A matematika tanítása (1-4. osztály)</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>hétfő</nap>
+            <tol>08:00</tol>
+            <ig>09:35</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="08">
+        <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>csütörtök</nap>
+            <tol>12:15</tol>
+            <ig>12:45</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="09">
+         <targy>Komputergrafika és képfeldolgozás</targy>
+        <idopont>
+            <paros_het>nem páros</paros_het>
+            <nap>csütörtök</nap>
+            <tol>16:00</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="10">
+        <targy>Kalkulus</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>péntek</nap>
+            <tol>13:30</tol>
+            <ig>17:30</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+     <ora id="11">
+        <targy>Operációs rendszerek</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>szombat</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Janics Tamás</oktato>
+        <tipus>Elmélet</tipus>
+    </ora>
+    <ora id="12">
+        <targy>Alkalmazások fejlesztése projekt labor II.</targy>
+        <idopont>
+            <paros_het>páros</paros_het>
+            <nap>szombat</nap>
+            <tol>09:00</tol>
+            <ig>12:55</ig>
+        </idopont>
+        <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Perlaki Attila</oktato>
+        <tipus>Gyakorlat</tipus>
+    </ora>
+</LL_orarend>
