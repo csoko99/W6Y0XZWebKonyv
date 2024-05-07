@@ -6,29 +6,30 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>hétfő</nap>
-            <tol>10:00</tol>
-            <ig>13:45</ig>
+            <tol>10:00:00</tol>
+            <ig>13:45:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
-        <oktato>Alföldi Attila </oktato>
+        <oktato>Alföldi Attila</oktato>
     </ora>
      <ora id="02" tipus="Elmélet">
         <targy>A matematika tanítása (1-4. osztály)</targy>
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>hétfő</nap>
-            <tol>14:00</tol>
-            <ig>15:25</ig>
+            <tol>14:00:00</tol>
+            <ig>15:25:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
+        <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
     </ora>
      <ora id="03" tipus="Gyakorlat">
         <targy>Webkönyvtárak</targy>
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>kedd</nap>
-            <tol>12:15</tol>
-            <ig>13:45</ig>
+            <tol>12:15:00</tol>
+            <ig>13:45:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Dr. Bednarik László</oktato>
@@ -38,8 +39,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>kedd</nap>
-            <tol>16:00</tol>
-            <ig>17:30</ig>
+            <tol>16:00:00</tol>
+            <ig>17:30:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Dr. Bednarik László</oktato>
@@ -49,8 +50,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>kedd</nap>
-            <tol>16:30</tol>
-            <ig>18:20</ig>
+            <tol>16:30:00</tol>
+            <ig>18:20:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint nagy terem</helyszin>
         <oktato>Dr. Egey Emese</oktato>
@@ -60,8 +61,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>szerda</nap>
-            <tol>08:00</tol>
-            <ig>09:35</ig>
+            <tol>08:00:00</tol>
+            <ig>09:35:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint nagy terem</helyszin>
         <oktato>Dr. Egey Emese</oktato>
@@ -71,8 +72,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>hétfő</nap>
-            <tol>08:00</tol>
-            <ig>09:35</ig>
+            <tol>08:00:00</tol>
+            <ig>09:35:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
@@ -82,8 +83,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>csütörtök</nap>
-            <tol>12:15</tol>
-            <ig>12:45</ig>
+            <tol>12:15:00</tol>
+            <ig>12:45:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Dr. Bednarik László</oktato>
@@ -93,8 +94,8 @@
         <idopont>
             <paros_het>nem páros</paros_het>
             <nap>csütörtök</nap>
-            <tol>16:00</tol>
-            <ig>17:30</ig>
+            <tol>16:00:00</tol>
+            <ig>17:30:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Dr. Bednarik László</oktato>
@@ -104,8 +105,8 @@
         <idopont>
             <paros_het>páros</paros_het>
             <nap>péntek</nap>
-            <tol>13:30</tol>
-            <ig>17:30</ig>
+            <tol>13:30:00</tol>
+            <ig>17:30:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Wiersumné Dr. Gyöngyösi Erika</oktato>
@@ -115,8 +116,8 @@
         <idopont>
             <paros_het>páros</paros_het>
             <nap>szombat</nap>
-            <tol>09:00</tol>
-            <ig>12:55</ig>
+            <tol>09:00:00</tol>
+            <ig>12:55:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Janics Tamás</oktato>
@@ -126,8 +127,8 @@
         <idopont>
             <paros_het>páros</paros_het>
             <nap>szombat</nap>
-            <tol>09:00</tol>
-            <ig>12:55</ig>
+            <tol>09:00:00</tol>
+            <ig>12:55:00</ig>
         </idopont>
         <helyszin>Teológia Szemere utcai bejárat földszint kis terem</helyszin>
         <oktato>Perlaki Attila</oktato>
