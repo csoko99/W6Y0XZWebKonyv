@@ -1,0 +1,54 @@
+body {
+  background-color: #ca7a2f;
+  transition: background-color 0.5s ease;
+  }
+
+@keyframes scale-a-lil {
+  from {
+    scale: .5;
+    }
+  }
+
+@media (prefers-reduced-motion: no-preference) {
+  #form-eredmeny .eredmeny {
+    animation: scale-a-lil linear both;
+    animation-timeline: view();
+    animation-range: 25vh 50vh;
+    }
+  }
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 3ch;
+  }
+
+#urlap {
+  width: 35%;
+  text-align: justify;
+  font-size: 2ch;
+  padding: 2%;
+  margin-left: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  }
+
+input {
+  text-align: center;
+  }
+
+.eredmeny {
+  border: 1px solid black;
+  padding: 1%;
+  background-color: aquamarine;
+  margin-left: 30%;
+  margin-top: 1%;
+  width: 30%;
+  border-radius: 10px;
+  }

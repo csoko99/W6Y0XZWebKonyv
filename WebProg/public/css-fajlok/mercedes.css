@@ -1,0 +1,251 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.5s ease;
+    }
+  
+@keyframes scale-a-lil {
+    from {
+      scale: .5;
+      }
+    }
+  
+@media (prefers-reduced-motion: no-preference) {
+    #introduction p,
+    #homes #brackley,
+    #homes #brixworth,
+    #driver-container #hamilton,
+    #driver-container #russell {
+      animation: scale-a-lil linear both;
+      animation-timeline: view();
+      animation-range: 25vh 50vh;
+      }
+    }
+  
+#mini-nav {
+    padding: 2%;
+    font-size: 2ch;
+    }
+  
+.mini-nav-item {
+    text-decoration: none;
+    color: black;
+    margin: 2%;
+    }
+  
+#header {
+    width: 100%;
+    background-color: black;
+    }
+  
+#logo-img {
+    width: 20%;
+    margin-left: 40%;
+    }
+  
+#welcome {
+    display: flex;
+    flex-direction: row;
+    }
+  
+#right {
+    width: 50%;
+    background-color: #221f1c;
+    color: white;
+    position: relative;
+    }
+  
+#arrow {
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    }
+  
+#title {
+    line-height: 0;
+    font-size: 3vw;
+    }
+  
+#left {
+    width: 50%;
+    }
+  
+#welcome-img {
+    width: 100%;
+    height: 100%;
+    }
+  
+.right-content {
+    margin-left: 10%;
+    }
+  
+#intro {
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+    }
+  
+#first-sec {
+    font-size: 3ch;
+    }
+  
+.caption {
+    font-size: 1.5ch;
+    }
+  
+h2 {
+    font-size: 4vw;
+    margin-left: 2%;
+    }
+  
+#homes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    }
+  
+#brackley {
+    width: 50%;
+    }
+  
+#brackley img {
+    width: 700px;
+    border-radius: 20% 0%;
+    }
+  
+#brixworth {
+    width: 50%;
+    }
+  
+#brixworth img {
+    width: 700px;
+    border-radius: 20% 0%;
+    }
+  
+#homes a {
+    text-decoration: none;
+    color: black;
+    font-size: 3ch;
+    }
+  
+#drivers {
+    background-color: #221f1c;
+    }
+  
+#drivers h2 {
+    color: white;
+    }
+  
+#driver-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    }
+  
+#hamilton {
+    width: 50%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    background-color: #767676;
+    border-radius: 10px;
+    }
+  
+#russell {
+    width: 50%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    background-color: #767676;
+    border-radius: 10px
+    }
+  
+#hamilton img {
+    width: 100%;
+    }
+  
+#hamilton h3 {
+    bottom: 0;
+    font-size: 2vw;
+    color: black;
+    width: 100%;
+    text-align: center;
+    }
+  
+#russell img {
+    width: 100%;
+    background-color: #767676;
+    }
+  
+#russell h3 {
+    bottom: 0;
+    font-size: 2vw;
+    color: black;
+    width: 100%;
+    text-align: center;
+    }
+  
+.text-container {
+    background-color: #00f5d0;
+    border-radius: 0 0 10px 10px;
+    }
+  
+#hamilton:hover img {
+    transition: 0.25s;
+    scale: 1.1;
+    background-color: #00f5d0;
+    }
+  
+#hamilton:hover .text-container {
+    transition: 0.25s;
+    scale: 1.1;
+    background-color: #00a39e;
+    }
+  
+#russell:hover img {
+    transition: 0.25s;
+    scale: 1.1;
+    background-color: #00f5d0;
+    }
+  
+#russell:hover .text-container {
+    transition: 0.25s;
+    scale: 1.1;
+    background-color: #00a39e;
+    }
+  
+#hamilton:hover h3 {
+    transition: 0.25s;
+    color: white;
+    }
+  
+#russell:hover h3 {
+    transition: 0.25s;
+    color: white;
+    }
+  
+.adatok {
+    display: none;
+    list-style: none;
+    }
+  
+#hamilton:hover .adatok {
+    transition: 0.25s;
+    scale: 1.1;
+    display: flex;
+    }
+  
+#russell:hover .adatok {
+    transition: 0.25s;
+    scale: 1.1;
+    display: flex;
+    }

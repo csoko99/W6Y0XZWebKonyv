@@ -1,0 +1,144 @@
+body {
+    background-color: #42963c;
+    transition: background-color 0.5s ease;
+    }
+  
+@keyframes scale-a-lil {
+    from {
+      scale: .5;
+      }
+    }
+  
+@media (prefers-reduced-motion: no-preference) {
+    .current_sport p,
+    .current_sport img,
+    .current_sport video,
+    .current_sport a {
+      animation: scale-a-lil linear both;
+      animation-timeline: view();
+      animation-range: 25vh 50vh;
+      }
+    }
+  
+  
+header {
+    padding: 10px;
+    text-align: center;
+    }
+  
+.fokep {
+    border-radius: 30px;
+    height: 500px;
+    }
+  
+#cim {
+    font-size: 50px;
+    }
+  
+.kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+  
+.logo {
+    height: 125px;
+    margin-left: 50px;
+    }
+  
+hr {
+    width: 40%;
+    }
+  
+#main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    }
+  
+#sports {
+    display: flex;
+    justify-content: center;
+    }
+  
+.sport-img {
+    width: 300px;
+    border-radius: 10%;
+    border: 2px solid #fffdff;
+    transition: transform 0.2s ease-in-out;
+    margin: 20px;
+    }
+  
+.sport-img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px #17408b;
+    }
+  
+.current_sport {
+    text-align: center;
+    width: 90%;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #6eee65;
+    }
+  
+.sec-img {
+    width: 100%;
+    }
+  
+h2 {
+    font-size: 3.5ch;
+    }
+  
+h3 {
+    font-size: 3ch;
+    }
+  
+.description {
+    text-align: justify;
+    font-size: 2ch;
+    }
+  
+.fav-player-img {
+    width: 50%;
+    }
+  
+.player-section {
+    display: flex;
+    flex-direction: row;
+    }
+  
+p {
+    text-align: justify;
+    }
+  
+.fav-player-desc {
+    width: 50%;
+    font-size: 2ch;
+    }
+  
+.back {
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    font-size: 1.5ch;
+    width: 10%;
+    border-radius: 10px;
+    }
+  
+video {
+    margin-top: 10px;
+    border-radius: 20px;
+    }
+  
+.media-btn {
+    margin: 15px;
+    font-size: 22px;
+    border-radius: 10px;
+    }
+  
+footer p {
+    text-align: center;
+    }

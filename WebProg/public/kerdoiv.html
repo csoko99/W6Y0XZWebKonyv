@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kérdőív</title>
+    <script src="/jquery/jquery-3.7.1.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/kerdoiv.js"></script>
+    <script src="/js/background-color.js"></script>
+    <link rel="stylesheet" href="/css-fajlok/sidebar.css">
+    <link rel="stylesheet" href="/css-fajlok/kerdoiv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sidebar kanit-regular">
+      <ul>
+        <li><a href="http://localhost:3000/">Főoldal</a></li>
+        <li><a href="http://localhost:3000/real-madrid">Real Madrid</a></li>
+        <li><a href="http://localhost:3000/golden-state">Golden State Warriors</a></li>
+        <li><a href="http://localhost:3000/mercedes">Mercedes-AMG PETRONAS</a></li>
+        <li><a href="http://localhost:3000/kerdoiv">Kérdőív</a></li>
+      </ul>
+    </div>
+    <section class="content kanit-regular">
+      <form id="startAnimationBtn">
+        <input type="color" id="colorPicker" name="colorPicker" value="#ca7a2f">
+      </form>
+      <h1 >Kedvenc sportcsapatod kérdőív</h1>
+      <form id="urlap" name="urlap">
+        <b>Név:</b> <input id="name" type="text" pattern="[A-Za-z]{4,30}" required autocomplete="off" name="name" autofocus placeholder="Írd be a neved" checked> <br><br>
+        <b>Életkor:</b> <input id="age" name="age" type="number" min="0" step="1" placeholder="Írd be az életkorod"></input> <br><br>
+        <b>Van kedvenc sportcsapatod?</b> <br>
+        <input type="radio" id="yes" name="yesno" class="yesno" value="Igen" checked>
+        <label for="yesno">Igen</label><br>
+        <input type="radio" id="no" name="yesno" class="yesno" value="Nem">
+        <label for="yesno">Nem</label><br><br>
+        <b>Kedvenc sportod:</b> <input id="fav-sport" name="fav-sport" type="text"  list="kedvenc-sport" > <br><br>
+        <datalist id="kedvenc-sport">
+          <option value="Labdarúgás"></option>
+          <option value="Kosárlabda"></option>
+          <option value="Formula-1"></option>
+          <option value="Egyéb"></option>
+        </datalist>
+        <b>Az alábbi csapatok közül követed valamelyiket?</b><br>
+        Real Madrid <input type="checkbox" id="rm" class="teams" value="Real Madrid" ><br>
+        Golden State Warriors <input type="checkbox" id="gs" class="teams" value="Golden State Warriors" ><br>
+        Mercedes-AMG PETRONAS <input type="checkbox" id="f1m" class="teams" value="Mercedes-AMG PETRONAS" ><br><br>
+        <b>Nagyjából mióta követed a csapatot?</b> <input type="date" id="date" > <br><br>
+        <b>Mi a véleményed a csapatról/csapatokról?</b> <br>
+        <textarea name="opiniom" id="opiniom" rows="5" cols="50" ></textarea>
+        <br>
+        <button id="bekuld">Beküld</button>
+      </form>
+      <div id="form-eredmeny">
+      </div>
+      <footer>
+        <p class="kanit-regular">Készítette: Laczkó Lajos Neptunkód: W6Y0XZ</p>
+      </footer>
+    </section>
+  </body>
+</html>

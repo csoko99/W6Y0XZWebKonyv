@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden State Warriors</title>
+    <script src="/jquery/jquery-3.7.1.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/golden-state.js"></script>
+    <script src="/js/background-color.js"></script>
+    <link rel="stylesheet" href="/css-fajlok/sidebar.css">
+    <link rel="stylesheet" href="/css-fajlok/golden-state.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background-color: rgb(170, 144, 49);
+        transition: background-color 0.5s ease; 
+        }
+
+      img {
+        width: 10%; 
+        margin-left: 40%;
+        }
+
+      #hatter {
+        border-radius: 10px;
+        text-align: justify;
+        font-size: 1vw;
+        background-color: #454140;
+        color: #e9c789;
+        width: 75%;
+        margin-left: 10%;
+        padding: 2vw;
+        }
+
+      a {
+        color: rgb(0, 0, 0);
+        }
+
+      ol {
+        border-radius: 10px;
+        margin-left: 10%;
+        font-size: 2vw;
+        width: 77%;
+        }
+
+      #gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1vw;
+        }
+
+      .gallery-image {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        cursor: pointer;
+        border-radius: 10px;
+        }
+
+      .modal {
+        display: none; 
+        position: fixed; 
+        z-index: 1; 
+        padding-top: 100px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto; 
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.9); 
+      }
+      .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        }
+
+      #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+        }
+
+      .modal-content, #caption {  
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+        }
+
+      @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+        }
+
+      @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+        }
+
+      .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+        }
+
+      .close:hover,
+      .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="http://localhost:3000/">Főoldal</a></li>
+        <li><a href="http://localhost:3000/real-madrid">Real Madrid</a></li>
+        <li><a href="http://localhost:3000/golden-state">Golden State Warriors</a></li>
+        <li><a href="http://localhost:3000/mercedes">Mercedes-AMG PETRONAS</a></li>
+        <li><a href="http://localhost:3000/kerdoiv">Kérdőív</a></li>
+      </ul>
+    </div>
+    <div class="content poppins-black">
+      <img src="kepek/logos/golden-state.png" alt="">
+      <form id="startAnimationBtn">
+        <input type="color" id="colorPicker" name="colorPicker" value="#aa9031">
+      </form>
+      <div id="csapat">
+        <h2>Csapat:</h2>
+        <table id="jatekosok-table">
+          <thead>
+            <tr>
+              <th>Név</th>
+              <th>Pozíció</th>
+              <th>Születési Dátum</th>
+              <th>Nemzetiség</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <h2>Háttér:</h2>
+      <div id="hatter">
+        <span class=" poppins-black">A Golden State Warriors amerikai profi kosárlabdacsapat, amely az National Basketball Association-ben játszik. Székhelyük a kaliforniai 
+        San Francisco. A Warriors a nyugati főcsoportban szerepel, a csendes-óceáni csoportban. 1946-ban alapították Philadelphiában, a Warriors 1962-ben a San Francisco 
+        Bay Area-ba költözött és felvették a város nevét, mielőtt 1971-ben a Golden State névre változtatták volna. Hazai mérkőzéseiket a Chase Centerben játsszák.</span>
+        <br> <br>
+        <span>A Warriors nyerte a Basketball Association of America első bajnoki címét 1947-ben, majd ismét győztesek lettek 1956-ben, Paul Arizin, Tom Gola és Neil Johnston
+        vezetésével. Miután 1965 januárjában Wilt Chamberlaint Philadelphiába küldték, a csapat az 1964–1965-ös szezont az NBA legrosszabb csapataként zárta, mindössze 17 
+        győzelemmel. Az újjáépítési időszakuk nagyon rövid volt, főleg Rick Barry draftolásának köszönhetően. 1975-ben Barry és Jamaal Wilkes vezetésével a Warriors elnyerte
+        harmadik bajnoki címét, ami az egyik legnagyobb meglepetés volt az NBA történetében.</span>
+        <p>Több információkért lásd:  <a href="https://hu.wikipedia.org/wiki/Golden_State_Warriors" target="_blank">https://hu.wikipedia.org/wiki/Golden_State_Warriors</a></p>
+      </div>
+      <h2>Top 10 csapat az NBA-ban történelmében:</h2>
+      <ol>
+        <li><a href="https://en.wikipedia.org/wiki/1995–96_Chicago_Bulls_season" target="_blank">1995-96 Chicago Bulls</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/2016–17_Golden_State_Warriors_season" target="_blank">2016-17 Golden State Warriors</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1971–72_Los_Angeles_Lakers_season" target="_blank">1971-72 Los Angeles Lakers</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1970–71_Milwaukee_Bucks_season" target="_blank">1970-71 Milwaukee Bucks</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1985–86_Boston_Celtics_season" target="_blank">1985-86 Boston Celtics</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1990–91_Chicago_Bulls_season" target="_blank">1990-91 Chicago Bulls</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1986–87_Los_Angeles_Lakers_season" target="_blank">1986-87 Los Angeles Lakers</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/2000–01_Los_Angeles_Lakers_season" target="_blank">2000-01 Los Angeles Lakers</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/1982–83_Philadelphia_76ers_season" target="_blank">1982-83 Philadelphia 76ers</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/2012–13_Miami_Heat_season" target="_blank">2012-13 Miami Heat</a></li>
+      </ol>
+      <h2>Galéria:</h2>
+      <div id="gallery">
+        <img src="kepek/warriors-gallery/kep1.jpg" alt="The new Golden State Warriors: relentless, ruthless … and oddly endearing" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep2.jpg" alt="Golden State Warriors down Portland Trail Blazers to enter three-way tie in thrilling Play-In race" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep3.jpg" alt="2022-2023 Golden State Warriors roster" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep4.jpg" alt="Can the Warriors Win the NBA Title Again in 2023?" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep5.jpg" alt="Golden State Warriors" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep6.jpg" alt="Golden State Warriors Season Preview: Can Stephen Curry And Draymond Green Extend The Dynasty?" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep7.jpg" alt="Golden State Warriors NBA Champion Speaks On Future With Franchise" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep8.jpg" alt="Golden State Warriors (32-27) at Boston Celtics (47-12) Game #60 3/3/24" class="gallery-image">
+        <img src="kepek/warriors-gallery/kep9.jpg" alt="Golden State Warriors reach sixth NBA Finals" class="gallery-image">
+      </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="caption"></div>
+      </div>
+      <footer>
+        <p class="kanit-regular">Készítette: Laczkó Lajos Neptunkód: W6Y0XZ</p>
+      </footer>
+    </div>
+  </body>
+</html>

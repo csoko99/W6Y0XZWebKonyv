@@ -1,0 +1,37 @@
+#csapat {
+    width: 100%;
+    }
+  
+#jatekosok-table {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 2vw;
+    border: 5px solid black;
+    border-radius: 5px;
+    text-align: center;
+    }
+  
+h2 {
+    font-size: 2.5vw;
+    }
+  
+th {
+    background-color: #fdba22;
+    color: #01050c;
+    border-radius: 5px;
+    }
+  
+tr {
+    background-color: #17408b;
+    color: #f7f6f4;
+    }
+  
+td {
+    border-radius: 5px;
+    }
+  
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    }

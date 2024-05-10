@@ -1,0 +1,34 @@
+{
+    "jatekosok": [
+       {
+          "nev": "Stephen Curry",
+          "pozicio": "Point Guard",
+          "szuletesi_datum": "1988-03-14",
+          "nemzetiseg": "amerikai"
+       },
+       {
+          "nev": "Klay Thompson",
+          "pozicio": "Shooting Guard",
+          "szuletesi_datum": "1990-02-08",
+          "nemzetiseg": "amerikai"
+       },
+       {
+          "nev": "Draymond Green",
+          "pozicio": "Power Forward",
+          "szuletesi_datum": "1990-03-04",
+          "nemzetiseg": "amerikai"
+       },
+       {
+          "nev": "Andrew Wiggins",
+          "pozicio": "Small Forward",
+          "szuletesi_datum": "1995-02-23",
+          "nemzetiseg": "kanadai"
+       },
+       {
+          "nev": "James Wiseman",
+          "pozicio": "Center",
+          "szuletesi_datum": "2001-03-31",
+          "nemzetiseg": "amerikai"
+       }
+    ]
+ }

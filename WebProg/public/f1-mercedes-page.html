@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes</title>
+    <script src="/jquery/jquery-3.7.1.js"></script>
+    <script src="/js/sidebar.js"></script>
+    <script src="/js/background-color.js"></script>
+    <link rel="stylesheet" href="/css-fajlok/sidebar.css">
+    <link rel="stylesheet" href="/css-fajlok/mercedes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="http://localhost:3000/">Főoldal</a></li>
+        <li><a href="http://localhost:3000/real-madrid">Real Madrid</a></li>
+        <li><a href="http://localhost:3000/golden-state">Golden State Warriors</a></li>
+        <li><a href="http://localhost:3000/mercedes">Mercedes-AMG PETRONAS</a></li>
+        <li><a href="http://localhost:3000/kerdoiv">Kérdőív</a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <form id="startAnimationBtn">
+        <input type="color" id="colorPicker" name="colorPicker" value="#f5f5f5">
+      </form>
+      <div id="header">
+        <img src="kepek/logos/mercedes.png" id="logo-img" alt="logo">
+      </div>
+      <div id="welcome">
+        <div id="right">
+          <div id="title">
+            <h1 class="right-content">A MERCEDES </h1>
+            <h1 class="right-content">CSAPAT</h1>
+          </div>
+          <a href="#introduction"><img id="arrow" src="kepek/mercedes/bottom-arrow.png" alt="bottom-arrow"></a>
+        </div>
+        <div id="left"> <img id="welcome-img" src="kepek/mercedes/welcome.jpg" alt="welcome"></div>
+      </div>
+      <section id="introduction">
+        <nav id="mini-nav">
+          <a class="mini-nav-item" href="#szekhelyek">SZÉKHELYEK</a>
+          <a class="mini-nav-item" href="#drivers">PILÓTÁK</a>
+        </nav>
+        <hr>
+        <div id="intro">
+          <p id="first-sec"><b>A Mercedes egy német Formula–1-es csapat, ami 2010 óta a Brawn GP utódjaként vesz részt a Formula–1-es világbajnokságban. A csapatot – 
+            ami egyébként a jogelőd sikerei miatt került a Mercedes kezébe – a Daimler 45,1%-ban, az Aabar 30%-ban (a Daimler részvényese) birtokolja,
+            míg a maradék 24,9%-ot megtartotta Ross Brawn.</b>
+          </p>
+          <p class="caption">
+            A Mercedes korábban 1954-55-ben szerepelt saját csapattal a versenysorozatban, akkor Juan Manuel Fangio mindkét évben világbajnok lett.
+            A visszatérést követően a 2012-es kínai nagydíjon nyertek először futamot Nico Rosberg révén. 2014-ben a csapat nagy fölénnyel megszerezte 
+            első konstruktőr-világbajnoki címét (az 1954–55-ös szereplés idején ezt még nem értékelték), és az egyéni világbajnokság is két versenyzője, Rosberg 
+            és Lewis Hamilton között dőlt el, kettejük vetélkedéséből év végén Hamilton került ki győztesen. 2015-ben Hamilton és a csapat is megvédte a címét. 
+            2016-ban ismét a Mercedes nyerte mindkét világbajnoki címet, de a két pilóta közül ezúttal Rosberg kerekedett felül.
+          </p>
+          <p class="caption">
+            2017-ben és 2018-ban a Ferrari a korábbinál versenyképesebb riválisnak bizonyult, de a Mercedesnek mindkét szezonban sikerült felülkerekednie,
+            és Hamiltonnal újabb világbajnoki címeket szereznie. 2019-re a Ferrari valamelyest visszaesett, a Kimi Räikkönen helyét átvevő Charles Leclerc pár versenyen
+            erős ellenfélnek bizonyult a Red Bullos Max Verstappennel együtt, ám így sem tudta őket senki letaszítani a trónról, Lewis Hamilton egyéniben ismét győzött
+            és a csapat is újra bajnok lett. A 2020-as, a Covid-19 miatt csonkára sikeredett évet hatalmas fölénnyel sikerült ismét megnyerniük, ezúttal különösebb kihívó
+            nélkül. 2021-ben a 2020-as autók átdolgozott versenyautóit használták a csapatok, ezt a Red Bull használta ki a legjobban az év első felében, ezzel sikerül az
+            év végén Max Verstappennek megvernie Lewis Hamiltont, így a holland versenyző lett a világbajnok az év utolsó versenyén, de a konstruktőri bajnoki cím ismét a
+            Mercedesé lett. 2022-től Valtteri Bottas helyét George Russell vette át. A szabályváltozások nem jöttek ki jól a csapat számára, egyelőre csak a harmadik erőt
+            képviselik, úgy néz ki, holtversenyben a McLarennel a Ferrari és a Red Bull mögött.
+          </p>
+          <a id="forras" href="https://hu.wikipedia.org/wiki/Mercedes_AMG_F1">https://hu.wikipedia.org/wiki/Mercedes_AMG_F1</a>
+        </div>
+      </section>
+      <hr>
+      <section id="szekhelyek">
+        <h2>Székhelyek</h2>
+        <div id="homes">
+          <div id="brackley">
+            <a href="https://www.google.com/maps/place/Mercedes-AMG+PETRONAS+F1+Team/@52.0217456,-1.1491704,17z/data=!3m1!4b1!4m16!1m9!4m8!1m0!1m6!1m2!1s0x48771fe47b4884ab:0xf5b4eec707fc929a!2sOperations+Centre,+Brackley+NN13+7BD,+Egyesült+Királyság!2m2!1d-1.1465901!2d52.0217456!3m5!1s0x48771fe47b4884ab:0xf5b4eec707fc929a!8m2!3d52.0217456!4d-1.1465901!16s%2Fg%2F1td9_5lk?entry=ttu" target="_blank">
+            <img src="kepek/mercedes/brackley.jpg" alt="Brackley">
+            <br>
+            <b>Brackley</b></a>
+          </div>
+          <div id="brixworth">
+            <a href="https://www.google.com/maps/place/Mercedes+AMG+High+Performance+Powertrains/@52.3352683,-0.9781751,12z/data=!4m19!1m12!4m11!1m3!2m2!1d-0.8959493!2d52.3350586!1m6!1m2!1s0x48770c9674d81b2d:0x2450cef9b73d41d8!2sMorgan+Dr,+Brixworth,+Northampton+NN6+9GZ,+Egyesült+Királyság!2m2!1d-0.8957749!2d52.335297!3m5!1s0x48770c9674d81b2d:0x2450cef9b73d41d8!8m2!3d52.335297!4d-0.8957749!16s%2Fg%2F1vkxls10?entry=ttu" target="_blank">
+            <img src="kepek/mercedes/brixworth.jpg" alt="Brixworth">
+            <br>
+            <b>Brixworth</b>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="drivers">
+        <h2>Pilóták</h2>
+        <div id="driver-container">
+          <div id="hamilton">
+            <img src="kepek/mercedes/hamilton.png" alt="Hamilton">
+            <div class="text-container">
+              <h3>Lewis Hamilton</h3>
+            </div>
+            <ul class="adatok">
+              <li> Győzelmek: <b>103</b></li>
+              <li>,  Pódium: <b>197</b></li>
+              <li>,  Pole pozíció: <b>104</b></li>
+              <li>,  Leggyorsabb kör: <b>65</b></li>
+            </ul>
+          </div>
+          <div id="russell">
+            <img src="kepek/mercedes/russel.png" alt="Russell">
+            <div class="text-container">
+              <h3>George Russell</h3>
+            </div>
+            <ul class="adatok">
+              <li>Győzelmek: <b>1</b></li>
+              <li>,  Pódium: <b>1</b></li>
+              <li>,  Pole pozíció: <b>1</b></li>
+              <li>,  Leggyorsabb kör: <b>6</b></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <p class="kanit-regular">Készítette: Laczkó Lajos Neptunkód: W6Y0XZ</p>
+      </footer>
+    </div>
+  </body>
+</html>
